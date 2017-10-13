@@ -1,5 +1,4 @@
-if(!exists("datas"))
-{ source("load_data.R")} ## Loading dataset only if it is not preexisting in the global environment
+source("load_data.R") ## Loading dataset 
 
 plot(datas$Time_Data,datas$Global_active_power,type ="l",xlab = "",ylab="Global Active Power (killowatts)")
 
