@@ -1,5 +1,4 @@
-if(!exists("datas"))
-{ source("load_data.R")} ## Loading dataset only if it is not preexisting in the global environment
+source("load_data.R") ## Loading dataset 
 
 par(mfrow=c(2,2)) ## Setting layout for multiple plots in single figure
 
